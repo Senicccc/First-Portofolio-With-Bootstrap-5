@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Nicholas Jeremy's Portfolio</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top"
+      style="background-color: #2196f3"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">SnicPortfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item"></li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Jumbotron/Hero -->
+    <section class="jumbotron text-center">
+      <div class="profile">
+        <img
+          src="img/img1.jpg"
+          alt="Nicholas Jeremy"
+          width="200"
+          class="rounded-circle img-thumbnail"
+        />
+        <h1 class="display-4" style="font-weight: bold">Nicholas Jeremy</h1>
+        <p class="lead" style="font-weight: 400">a computer science student</p>
+      </div>
+      <svg
+        width="100%"
+        height="100%"
+        id="svg"
+        viewBox="0 200 1440 250"
+        xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150"
+      >
+        <style>
+          .path-0 {
+            animation: pathAnim-0 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes pathAnim-0 {
+            0% {
+              d: path(
+                "M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            25% {
+              d: path(
+                "M 0,700 L 0,262 C 128.13333333333333,219.33333333333331 256.26666666666665,176.66666666666666 411,178 C 565.7333333333333,179.33333333333334 747.0666666666668,224.66666666666669 923,246 C 1098.9333333333332,267.3333333333333 1269.4666666666667,264.66666666666663 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            50% {
+              d: path(
+                "M 0,700 L 0,262 C 147.46666666666664,286.6666666666667 294.9333333333333,311.33333333333337 462,292 C 629.0666666666667,272.66666666666663 815.7333333333333,209.33333333333331 982,197 C 1148.2666666666667,184.66666666666669 1294.1333333333332,223.33333333333334 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            75% {
+              d: path(
+                "M 0,700 L 0,262 C 148.53333333333336,293.20000000000005 297.0666666666667,324.40000000000003 441,336 C 584.9333333333333,347.59999999999997 724.2666666666667,339.6 890,324 C 1055.7333333333333,308.4 1247.8666666666668,285.2 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            100% {
+              d: path(
+                "M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+          }
+        </style>
+        <path
+          d="M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#e2efff"
+          fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg>
+    </section>
+    <!-- Jumbotron/Hero End -->
+
+    <!-- About -->
+    <section id="about" style="background-color: #e2edff">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 class="fs-1 pb-4">About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-justify pb-5">
+          <div class="col-md-4">
+            Hello! My name is Nicholas Jeremy Hendrajaya, a computer science student passionate about web development, app development, and database systems.
+          </div>
+          <div class="col-md-4">
+            I'm excited to take on more challenging projects, expand my expertise, and collaborate on creative ideas that make a difference!
+          </div>
+        </div>
+
+      </div>
+      <svg
+        width="100%"
+        height="100%"
+        id="svg"
+        viewBox="0 80 1440 250"
+        xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150"
+      >
+        <style>
+          .path-0 {
+            animation: pathAnim-0 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes pathAnim-0 {
+            0% {
+              d: path(
+                "M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            25% {
+              d: path(
+                "M 0,700 L 0,262 C 128.13333333333333,219.33333333333331 256.26666666666665,176.66666666666666 411,178 C 565.7333333333333,179.33333333333334 747.0666666666668,224.66666666666669 923,246 C 1098.9333333333332,267.3333333333333 1269.4666666666667,264.66666666666663 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            50% {
+              d: path(
+                "M 0,700 L 0,262 C 147.46666666666664,286.6666666666667 294.9333333333333,311.33333333333337 462,292 C 629.0666666666667,272.66666666666663 815.7333333333333,209.33333333333331 982,197 C 1148.2666666666667,184.66666666666669 1294.1333333333332,223.33333333333334 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            75% {
+              d: path(
+                "M 0,700 L 0,262 C 148.53333333333336,293.20000000000005 297.0666666666667,324.40000000000003 441,336 C 584.9333333333333,347.59999999999997 724.2666666666667,339.6 890,324 C 1055.7333333333333,308.4 1247.8666666666668,285.2 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            100% {
+              d: path(
+                "M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+          }
+        </style>
+        <path
+          d="M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#ffffff"
+          fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg>
+    </section>
+    <!-- About End -->
+
+    <!-- Projects -->
+      <div id="projects">
+        <div class="container">
+          <div class="row text-center">
+            <div class="column">
+              <h2 class="fs-1">My Projects</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img
+                  src="img/projects/SnicEats.png"
+                  class="card-img-top"
+                  alt="Project: SnicEats"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <a class="project-title fs-2" href="https://github.com/Senicccc/SnicEats">
+                      <b>SnicEats</b>
+                    </a>
+                    <p>a web for fast food restaurant to order, contact, and find the restaurant address</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img
+                  src="img/projects/SnicWeb.png"
+                  class="card-img-top"
+                  alt="Project: SnicWeb"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <a class="project-title fs-2" href="https://github.com/Senicccc/SnicWeb">
+                      <b>SnicWeb</b>
+                    </a>
+                    <p>web that designed for contents like news and other similiar stuff</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img
+                  src="img/projects/MyFinancial.png"
+                  class="card-img-top"
+                  alt="Project: MyFinancial"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <a class="project-title fs-2" href="https://github.com/Senicccc/MyFinancial-Personal-Finance-Tracker">
+                      <b>MyFinancial</b>
+                    </a>
+                    <p>personal desktop application to track and manage your finance in order to achieve goal</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img
+                  src="img/projects/Coming-Soon.png"
+                  class="card-img-top"
+                  alt="Coming Soon"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <a class="project-title fs-2" href="#">
+                      <b>Coming Soon</b>
+                    </a>
+                    <p>more exciting and totally useful project is coming soon!!!!</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img
+                  src="img/projects/Coming-Soon.png"
+                  class="card-img-top"
+                  alt="Coming Soon"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <a class="project-title fs-2" href="#">
+                      <b>Coming Soon</b>
+                    </a>
+                    <p>more exciting and totally useful project is coming soon!!!!</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <svg
+        width="100%"
+        height="100%"
+        id="svg"
+        viewBox="0 80 1440 250"
+        xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150"
+      >
+        <style>
+          .path-0 {
+            animation: pathAnim-0 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes pathAnim-0 {
+            0% {
+              d: path(
+                "M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            25% {
+              d: path(
+                "M 0,700 L 0,262 C 128.13333333333333,219.33333333333331 256.26666666666665,176.66666666666666 411,178 C 565.7333333333333,179.33333333333334 747.0666666666668,224.66666666666669 923,246 C 1098.9333333333332,267.3333333333333 1269.4666666666667,264.66666666666663 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            50% {
+              d: path(
+                "M 0,700 L 0,262 C 147.46666666666664,286.6666666666667 294.9333333333333,311.33333333333337 462,292 C 629.0666666666667,272.66666666666663 815.7333333333333,209.33333333333331 982,197 C 1148.2666666666667,184.66666666666669 1294.1333333333332,223.33333333333334 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            75% {
+              d: path(
+                "M 0,700 L 0,262 C 148.53333333333336,293.20000000000005 297.0666666666667,324.40000000000003 441,336 C 584.9333333333333,347.59999999999997 724.2666666666667,339.6 890,324 C 1055.7333333333333,308.4 1247.8666666666668,285.2 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            100% {
+              d: path(
+                "M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+          }
+        </style>
+        <path
+          d="M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#e2efff"
+          fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg>
+    </section>
+    <!-- Projects End -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="fs-1">Contact Me</h2>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <div class="border rounded shadow p-4 bg-white d-flex flex-column align-items-center">
+            <img src="https://img.icons8.com/?size=100&id=BrU2BBoRXiWq&format=png&color=000000" 
+              class="rounded float-end" 
+              alt="Instagram Logo" 
+              width="120" 
+              height="120">
+            <h4>Instagram</h4>
+            <p>Nicholas Jeremy's Instagram Profile</p>
+            <a href="https://www.instagram.com/seniccc/" class="btn btn-full-width">Visit Profile</a>
+          </div>
+          <div class="border rounded shadow p-4 bg-white mt-5 d-flex flex-column align-items-center">
+            <img src="https://img.icons8.com/?size=100&id=efFfwotdkiU5&format=png&color=000000" 
+              class="rounded float-end" 
+              alt="GitHub Logo" 
+              width="120" 
+              height="120">
+            <h4>GitHub</h4>
+            <p>Nicholas Jeremy's Github Profile</p>
+            <a href="https://github.com/Senicccc" class="btn btn-full-width">Visit Profile</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <svg
+        width="100%"
+        height="100%"
+        id="svg"
+        viewBox="0 100 1440 250"
+        xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150"
+        style="background-color: #e2efff;"
+      >
+        <style>
+          .path-0 {
+            animation: pathAnim-0 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes pathAnim-0 {
+            0% {
+              d: path(
+                "M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            25% {
+              d: path(
+                "M 0,700 L 0,262 C 128.13333333333333,219.33333333333331 256.26666666666665,176.66666666666666 411,178 C 565.7333333333333,179.33333333333334 747.0666666666668,224.66666666666669 923,246 C 1098.9333333333332,267.3333333333333 1269.4666666666667,264.66666666666663 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            50% {
+              d: path(
+                "M 0,700 L 0,262 C 147.46666666666664,286.6666666666667 294.9333333333333,311.33333333333337 462,292 C 629.0666666666667,272.66666666666663 815.7333333333333,209.33333333333331 982,197 C 1148.2666666666667,184.66666666666669 1294.1333333333332,223.33333333333334 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            75% {
+              d: path(
+                "M 0,700 L 0,262 C 148.53333333333336,293.20000000000005 297.0666666666667,324.40000000000003 441,336 C 584.9333333333333,347.59999999999997 724.2666666666667,339.6 890,324 C 1055.7333333333333,308.4 1247.8666666666668,285.2 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+            100% {
+              d: path(
+                "M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+              );
+            }
+          }
+        </style>
+        <path
+          d="M 0,700 L 0,262 C 132.8,231.33333333333334 265.6,200.66666666666669 440,192 C 614.4,183.33333333333331 830.4000000000001,196.66666666666666 1004,212 C 1177.6,227.33333333333334 1308.8,244.66666666666669 1440,262 L 1440,700 L 0,700 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#2196f3"
+          fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        Created by
+        <a href="https://www.instagram.com/seniccc/"
+          >Seniccc (Nicholas Jeremy)</a
+        >
+      </p>
+    </footer>
+    <!-- Footer End -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
